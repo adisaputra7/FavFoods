@@ -14,6 +14,18 @@
 		F54EF20B2A32BB21009388C9 /* FavFoodsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54EF20A2A32BB21009388C9 /* FavFoodsTests.swift */; };
 		F54EF2152A32BB21009388C9 /* FavFoodsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54EF2142A32BB21009388C9 /* FavFoodsUITests.swift */; };
 		F54EF2172A32BB21009388C9 /* FavFoodsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54EF2162A32BB21009388C9 /* FavFoodsUITestsLaunchTests.swift */; };
+		F54EF2362A32DE7A009388C9 /* GetStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54EF2352A32DE7A009388C9 /* GetStartedView.swift */; };
+		F54EF2372A32DE7A009388C9 /* GetStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54EF2352A32DE7A009388C9 /* GetStartedView.swift */; };
+		F54EF2382A32DE7A009388C9 /* GetStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54EF2352A32DE7A009388C9 /* GetStartedView.swift */; };
+		F54EF23C2A330D56009388C9 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F54EF2392A330D56009388C9 /* Poppins-Bold.ttf */; };
+		F54EF23D2A330D56009388C9 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F54EF2392A330D56009388C9 /* Poppins-Bold.ttf */; };
+		F54EF23E2A330D56009388C9 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F54EF2392A330D56009388C9 /* Poppins-Bold.ttf */; };
+		F54EF23F2A330D56009388C9 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F54EF23A2A330D56009388C9 /* Poppins-SemiBold.ttf */; };
+		F54EF2402A330D56009388C9 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F54EF23A2A330D56009388C9 /* Poppins-SemiBold.ttf */; };
+		F54EF2412A330D56009388C9 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F54EF23A2A330D56009388C9 /* Poppins-SemiBold.ttf */; };
+		F54EF2422A330D56009388C9 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F54EF23B2A330D56009388C9 /* Poppins-Regular.ttf */; };
+		F54EF2432A330D56009388C9 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F54EF23B2A330D56009388C9 /* Poppins-Regular.ttf */; };
+		F54EF2442A330D56009388C9 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F54EF23B2A330D56009388C9 /* Poppins-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +56,11 @@
 		F54EF2102A32BB21009388C9 /* FavFoodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FavFoodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54EF2142A32BB21009388C9 /* FavFoodsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavFoodsUITests.swift; sourceTree = "<group>"; };
 		F54EF2162A32BB21009388C9 /* FavFoodsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavFoodsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F54EF2352A32DE7A009388C9 /* GetStartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedView.swift; sourceTree = "<group>"; };
+		F54EF2392A330D56009388C9 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		F54EF23A2A330D56009388C9 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		F54EF23B2A330D56009388C9 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		F54EF2452A330ED1009388C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +111,13 @@
 		F54EF1F82A32BB20009388C9 /* FavFoods */ = {
 			isa = PBXGroup;
 			children = (
+				F54EF2452A330ED1009388C9 /* Info.plist */,
+				F54EF2392A330D56009388C9 /* Poppins-Bold.ttf */,
+				F54EF23B2A330D56009388C9 /* Poppins-Regular.ttf */,
+				F54EF23A2A330D56009388C9 /* Poppins-SemiBold.ttf */,
 				F54EF1F92A32BB20009388C9 /* FavFoodsApp.swift */,
 				F54EF1FB2A32BB20009388C9 /* ContentView.swift */,
+				F54EF2352A32DE7A009388C9 /* GetStartedView.swift */,
 				F54EF1FD2A32BB21009388C9 /* Assets.xcassets */,
 				F54EF1FF2A32BB21009388C9 /* Preview Content */,
 			);
@@ -232,7 +254,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F54EF2012A32BB21009388C9 /* Preview Assets.xcassets in Resources */,
+				F54EF23F2A330D56009388C9 /* Poppins-SemiBold.ttf in Resources */,
+				F54EF23C2A330D56009388C9 /* Poppins-Bold.ttf in Resources */,
 				F54EF1FE2A32BB21009388C9 /* Assets.xcassets in Resources */,
+				F54EF2422A330D56009388C9 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +265,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F54EF2432A330D56009388C9 /* Poppins-Regular.ttf in Resources */,
+				F54EF23D2A330D56009388C9 /* Poppins-Bold.ttf in Resources */,
+				F54EF2402A330D56009388C9 /* Poppins-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +275,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F54EF2442A330D56009388C9 /* Poppins-Regular.ttf in Resources */,
+				F54EF23E2A330D56009388C9 /* Poppins-Bold.ttf in Resources */,
+				F54EF2412A330D56009388C9 /* Poppins-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F54EF1FC2A32BB20009388C9 /* ContentView.swift in Sources */,
+				F54EF2362A32DE7A009388C9 /* GetStartedView.swift in Sources */,
 				F54EF1FA2A32BB20009388C9 /* FavFoodsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F54EF20B2A32BB21009388C9 /* FavFoodsTests.swift in Sources */,
+				F54EF2372A32DE7A009388C9 /* GetStartedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F54EF2172A32BB21009388C9 /* FavFoodsUITestsLaunchTests.swift in Sources */,
+				F54EF2382A32DE7A009388C9 /* GetStartedView.swift in Sources */,
 				F54EF2152A32BB21009388C9 /* FavFoodsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +454,7 @@
 				DEVELOPMENT_TEAM = 365GJN654J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FavFoods/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +484,7 @@
 				DEVELOPMENT_TEAM = 365GJN654J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FavFoods/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
