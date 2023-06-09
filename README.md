@@ -9,8 +9,9 @@ Key Features
 * Local Storage: User's favorite food data is stored locally on the device, enabling access even without an internet connection.
 
 <h3>Screenshoot</h3>
+
 ![image](https://github.com/adisaputra7/FavFoods/assets/18062340/14100c01-80c5-44af-99c7-7dde2e272850)
 
 
 **Note**
-- Credit: This project provide by [Your Link](http://Buildwithangga.com)
+- Credit: This project provide by [Buildwithangga.com](http://Buildwithangga.com)
