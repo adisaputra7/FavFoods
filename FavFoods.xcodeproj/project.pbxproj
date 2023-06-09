@@ -32,6 +32,9 @@
 		F5754C212A332D9C0051C7DF /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5754C202A332D9C0051C7DF /* Poppins-Medium.ttf */; };
 		F5754C222A332D9C0051C7DF /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5754C202A332D9C0051C7DF /* Poppins-Medium.ttf */; };
 		F5754C232A332D9C0051C7DF /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5754C202A332D9C0051C7DF /* Poppins-Medium.ttf */; };
+		F5754C252A3346340051C7DF /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5754C242A3346340051C7DF /* DetailsView.swift */; };
+		F5754C262A3346340051C7DF /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5754C242A3346340051C7DF /* DetailsView.swift */; };
+		F5754C272A3346340051C7DF /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5754C242A3346340051C7DF /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,7 @@
 		F54EF2452A330ED1009388C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5754C1C2A3317AC0051C7DF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F5754C202A332D9C0051C7DF /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		F5754C242A3346340051C7DF /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,12 +123,13 @@
 		F54EF1F82A32BB20009388C9 /* FavFoods */ = {
 			isa = PBXGroup;
 			children = (
-				F54EF2452A330ED1009388C9 /* Info.plist */,
 				F5754C1B2A3317910051C7DF /* Fonts */,
+				F54EF2452A330ED1009388C9 /* Info.plist */,
 				F54EF1F92A32BB20009388C9 /* FavFoodsApp.swift */,
 				F54EF1FB2A32BB20009388C9 /* ContentView.swift */,
 				F54EF2352A32DE7A009388C9 /* GetStartedView.swift */,
 				F5754C1C2A3317AC0051C7DF /* HomeView.swift */,
+				F5754C242A3346340051C7DF /* DetailsView.swift */,
 				F54EF1FD2A32BB21009388C9 /* Assets.xcassets */,
 				F54EF1FF2A32BB21009388C9 /* Preview Content */,
 			);
@@ -310,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F54EF1FC2A32BB20009388C9 /* ContentView.swift in Sources */,
+				F5754C252A3346340051C7DF /* DetailsView.swift in Sources */,
 				F5754C1D2A3317AC0051C7DF /* HomeView.swift in Sources */,
 				F54EF2362A32DE7A009388C9 /* GetStartedView.swift in Sources */,
 				F54EF1FA2A32BB20009388C9 /* FavFoodsApp.swift in Sources */,
@@ -321,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5754C1E2A3317AC0051C7DF /* HomeView.swift in Sources */,
+				F5754C262A3346340051C7DF /* DetailsView.swift in Sources */,
 				F54EF20B2A32BB21009388C9 /* FavFoodsTests.swift in Sources */,
 				F54EF2372A32DE7A009388C9 /* GetStartedView.swift in Sources */,
 			);
@@ -331,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F54EF2172A32BB21009388C9 /* FavFoodsUITestsLaunchTests.swift in Sources */,
+				F5754C272A3346340051C7DF /* DetailsView.swift in Sources */,
 				F5754C1F2A3317AC0051C7DF /* HomeView.swift in Sources */,
 				F54EF2382A32DE7A009388C9 /* GetStartedView.swift in Sources */,
 				F54EF2152A32BB21009388C9 /* FavFoodsUITests.swift in Sources */,
