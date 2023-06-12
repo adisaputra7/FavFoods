@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F52E2B702A36B98F0012A2AA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52E2B6F2A36B98F0012A2AA /* SettingsView.swift */; };
+		F52E2B712A36B98F0012A2AA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52E2B6F2A36B98F0012A2AA /* SettingsView.swift */; };
+		F52E2B722A36B98F0012A2AA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52E2B6F2A36B98F0012A2AA /* SettingsView.swift */; };
 		F54EF1FA2A32BB20009388C9 /* FavFoodsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54EF1F92A32BB20009388C9 /* FavFoodsApp.swift */; };
 		F54EF1FC2A32BB20009388C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54EF1FB2A32BB20009388C9 /* ContentView.swift */; };
 		F54EF1FE2A32BB21009388C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F54EF1FD2A32BB21009388C9 /* Assets.xcassets */; };
@@ -55,6 +58,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F52E2B6F2A36B98F0012A2AA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F54EF1F62A32BB20009388C9 /* FavFoods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavFoods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54EF1F92A32BB20009388C9 /* FavFoodsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavFoodsApp.swift; sourceTree = "<group>"; };
 		F54EF1FB2A32BB20009388C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -132,6 +136,7 @@
 				F5754C242A3346340051C7DF /* DetailsView.swift */,
 				F54EF1FD2A32BB21009388C9 /* Assets.xcassets */,
 				F54EF1FF2A32BB21009388C9 /* Preview Content */,
+				F52E2B6F2A36B98F0012A2AA /* SettingsView.swift */,
 			);
 			path = FavFoods;
 			sourceTree = "<group>";
@@ -317,6 +322,7 @@
 				F54EF1FC2A32BB20009388C9 /* ContentView.swift in Sources */,
 				F5754C252A3346340051C7DF /* DetailsView.swift in Sources */,
 				F5754C1D2A3317AC0051C7DF /* HomeView.swift in Sources */,
+				F52E2B702A36B98F0012A2AA /* SettingsView.swift in Sources */,
 				F54EF2362A32DE7A009388C9 /* GetStartedView.swift in Sources */,
 				F54EF1FA2A32BB20009388C9 /* FavFoodsApp.swift in Sources */,
 			);
@@ -326,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F52E2B712A36B98F0012A2AA /* SettingsView.swift in Sources */,
 				F5754C1E2A3317AC0051C7DF /* HomeView.swift in Sources */,
 				F5754C262A3346340051C7DF /* DetailsView.swift in Sources */,
 				F54EF20B2A32BB21009388C9 /* FavFoodsTests.swift in Sources */,
@@ -340,6 +347,7 @@
 				F54EF2172A32BB21009388C9 /* FavFoodsUITestsLaunchTests.swift in Sources */,
 				F5754C272A3346340051C7DF /* DetailsView.swift in Sources */,
 				F5754C1F2A3317AC0051C7DF /* HomeView.swift in Sources */,
+				F52E2B722A36B98F0012A2AA /* SettingsView.swift in Sources */,
 				F54EF2382A32DE7A009388C9 /* GetStartedView.swift in Sources */,
 				F54EF2152A32BB21009388C9 /* FavFoodsUITests.swift in Sources */,
 			);
